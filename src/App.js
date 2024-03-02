@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+import React from 'react';
+import About from './components/about/About';
+import Media from './components/media/Media';
+import Nav from './components/nav/Nav';
+import Footer from './components/footer/Footer';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="Header">
+        <div id="banner" className="Banner">
+          <h2 className="Band-name">succumb:</h2>
+          <h2 className="Band-name">to:darkness</h2>
+        </div>
       </header>
+      <div className="Nav-container">
+        <Nav />
+      </div>
+      <div id="about">
+        <About />
+      </div>
+      <div id="media">
+        <Media />
+      </div>
+      <Footer />
     </div>
   );
 }

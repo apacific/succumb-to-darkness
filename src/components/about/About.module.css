@@ -1,0 +1,34 @@
+.About {
+    height: 100vh;
+    padding-top: 3em;
+}
+.Box{
+    display: block;
+    float: left;
+    font-family: 'Warsuck';
+    margin: 0 auto;
+    max-width: 17em;
+}
+.Box:hover {
+    filter: invert(55.55%);
+}
+.Container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    max-width: 66%;
+}
+.Desc {
+    filter: invert(19%);
+    height: 1.35em;
+    margin-top: -.33em;
+}
+.Who {
+    filter: invert(32.23%);
+    height: 4em;
+    margin: 2em;
+}
+
+p {
+    font-size: .95em;
+}
