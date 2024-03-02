@@ -30,6 +30,9 @@
   margin-bottom: 10em;
   top: 0;
 }
+.rap-container {
+  width: 666px;
+}
 #about, #media {
   height: 100vh;
 }
