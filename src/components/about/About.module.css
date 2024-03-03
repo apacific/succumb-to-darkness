@@ -6,10 +6,12 @@
     display: block;
     float: left;
     font-family: 'Warsuck';
+    letter-spacing: .0666vw;
     margin: 0 auto;
     max-width: 17em;
 }
 .Box:hover {
+    cursor: default;
     filter: invert(55.55%);
 }
 .Container {

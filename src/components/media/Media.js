@@ -28,11 +28,8 @@ function Media() {
   return (
     Playlist.map(s =>
       <div id="audio-selection">
-        <h2 id="selection-title" >
-          {s.title}
-        </h2>
         <div id="player-wrapper">
-          <MediaPlayer link={s.link}/>
+          <MediaPlayer link={s.link} title={s.title} />
         </div>
       </div>
     )

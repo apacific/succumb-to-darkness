@@ -1,6 +1,6 @@
 # STD-App
 
-Frontend application for Portland, Oregon-based doom band Succumb to Darkness.
+Front-end application for Portland, Oregon doom band Succumb to Darkness.
 
 ## Available Scripts
 

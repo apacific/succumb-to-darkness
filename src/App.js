@@ -20,8 +20,10 @@ const App = () => {
       <div id="about">
         <About />
       </div>
-      <div id="media">
-        <Media />
+      <div id="media-container">
+        <div id="media">
+          <Media />
+        </div>
       </div>
       <Footer />
     </div>
