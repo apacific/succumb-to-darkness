@@ -13,6 +13,7 @@ const MediaPlayer = ({ title, link }) => {
 				backgroundColor="transparent"
 				color="#cfcfcf"
                 id="MediaPlayer"
+                onEnd={() => setPlaying(!playing)}
 				sliderColor="#94b9ff"
                 src={link}
 			/> }

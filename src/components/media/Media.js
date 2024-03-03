@@ -1,9 +1,8 @@
 import MediaPlayer from "../media-player/MediaPlayer";
-
-const balloons = 'https://dl.musopen.org/recordings/9dae5fa1-9d59-4381-a8c2-acfc8885aec3.mp3';
-const reality = 'https://dl.musopen.org/recordings/e974578e-4133-418e-8d09-a3c2d66635f6.mp3';
-const american = 'https://dl.musopen.org/recordings/816026fd-971d-4b19-87a6-8d8c74436a82.mp3';
-const music = 'https://dl.musopen.org/recordings/79a9a14a-66f8-4a52-aefb-c174efab8b6c.mp3';
+import balloons from "./assets/chaos-balloons.mp3";
+import reality from "./assets/distant-reality.mp3";
+import american from "./assets/i-am-an-american.mp3";
+import music from "./assets/lets-talk-about-music.mp3";
 
 function Media() {
   const Balloons = {
