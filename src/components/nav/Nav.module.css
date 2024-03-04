@@ -14,7 +14,7 @@ a:hover {
   text-shadow: 1px 1px 1px black;
 }
 li {
-  margin: auto 1.77em;
+  margin: 0 1.77em;
 }
 ul {
   display: inline-flex;

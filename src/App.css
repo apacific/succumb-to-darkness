@@ -47,15 +47,15 @@
 }
 #footer {
   font-family: 'Warsuck';
-  font-size: xx-small;
+  font-size: small;
   font-weight: 300;
   letter-spacing: .123vw;
   line-height: 1.75em;
   min-height: 3rem;
+  padding-bottom: 5em;
+  margin-top: -5em;
   text-shadow: .1px .1px .1px #333;
-  position: fixed;
   left: 0;
-  bottom: .15em;
   width: 100%;
   text-align: center;
 }
@@ -63,7 +63,7 @@
   bottom: .5em;
   color: white;
   cursor: default;
-  font-size: x-small;
+  font-size: small;
   font-weight: 300;
   text-shadow: .5px .5px .5px black;
 }
