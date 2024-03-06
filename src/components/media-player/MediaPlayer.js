@@ -1,20 +1,19 @@
-import { AudioPlayer } from 'react-audio-play';
+import AudioPlayer from 'react-h5-audio-player';
 import { useState } from 'react';
+import './MediaPlayer.module.css';
 
 const MediaPlayer = ({ title, link }) => {
     const [playing, setPlaying] = useState(false);
     return (
         <>
-            
-        <h2 id="selection-title" onClick={() => setPlaying(!playing)}>
-            {title}
-        </h2>
+            <h2 id="selection-title" onClick={() => setPlaying(!playing)}>
+                {title}
+            </h2>
             { playing && <AudioPlayer
-				backgroundColor="transparent"
-				color="#cfcfcf"
+				autoPlay={true}
+                customAdditionalControls={[]}
                 id="MediaPlayer"
-                onEnd={() => setPlaying(!playing)}
-				sliderColor="#94b9ff"
+                onEnded={() => setPlaying(!playing)}
                 src={link}
 			/> }
         </>
