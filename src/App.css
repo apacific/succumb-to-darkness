@@ -8,21 +8,25 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
 }
+
 .Band-name {
   letter-spacing: 4vw;
   margin: 0;
   overflow: hidden;
 }
+
 .Banner {
   margin-left: .5em;
   padding-top: 1.25em;
 }
+
 .Header {
   font-family: 'JSL-blackletter';
   font-size: 5rem;
   vertical-align: top;
   width: 100%;
 }
+
 .Nav-container {
   background-color: transparent;
   display: block;
@@ -30,21 +34,27 @@
   margin-bottom: 10em;
   top: 0;
 }
+
 .rap-container {
   width: 666px;
 }
+
 #about, #media {
   height: 100vh;
 }
+
 #audio-selection {
   height: 5em;
 }
+
 #audio-selection > * {
   display: block;
 }
+
 #audio-selection:hover > * {
   color: white;
 }
+
 #footer {
   font-family: 'Warsuck';
   font-size: small;
@@ -59,6 +69,7 @@
   width: 100%;
   text-align: center;
 }
+
 #footer:hover {
   bottom: .5em;
   color: white;
@@ -67,6 +78,7 @@
   font-weight: 300;
   text-shadow: .5px .5px .5px black;
 }
+
 #media {
   align-items: center;
   color: white;
@@ -78,19 +90,23 @@
   padding-top: 6.66em;
   row-gap: 1em;
 }
+
 #player-wrapper {
   position: relative;
   z-index: 1;
 }
+
 #selection-title:hover {
   color: white;
 } 
+
 #selection-title {
   color: black;
   cursor: crosshair;
   margin-bottom: 0;
   text-shadow: .1px .1px .1px white;
 }
+
 .rhap_container {
   background: inherit;
 }
