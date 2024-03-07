@@ -100,6 +100,7 @@
 }
 
 .rhap_main-controls-button {
+  border-style: none;
   color: #999;
   font-size: x-large;
   margin: .25em;
