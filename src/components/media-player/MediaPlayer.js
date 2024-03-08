@@ -5,8 +5,11 @@ import './MediaPlayer.module.css';
 const MediaPlayer = ({ title, link }) => {
     const [playing, setPlaying] = useState(false);
     return (
-        <>
-            <h2 id="selection-title" onClick={() => setPlaying(!playing)}>
+        <div>
+            <h2
+                style={{ color: playing ? 'white' : '' }}
+                id="selection-title"
+                onClick={() => setPlaying(!playing)}>
                 {title}
             </h2>
             { playing && <AudioPlayer
@@ -16,7 +19,7 @@ const MediaPlayer = ({ title, link }) => {
                 onEnded={() => setPlaying(!playing)}
                 src={link}
 			/> }
-        </>
+        </div>
     )
 }
 
