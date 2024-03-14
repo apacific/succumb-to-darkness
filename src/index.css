@@ -3,11 +3,6 @@ body {
   src: local('JSL-blackletter'), url("%PUBLIC_URL%/JBLACK.TTF") format('truetype');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 @font-face {
   font-family: 'JSL-blackletter';
   src: local('JSL-blackletter'), url("%PUBLIC_URL%/JBLACK.TTF") format('truetype');
