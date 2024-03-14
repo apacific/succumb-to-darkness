@@ -1,10 +1,23 @@
 import MediaPlayer from "../media-player/MediaPlayer";
 import balloons from "./assets/chaos-balloons.mp3";
+import exquisiteCorpse from "./assets/exquisite-corpse.mp3";
+import plagueOfCorruption from "./assets/plague-of-corruption.mp3";
+import saturnCalls from "./assets/saturn-calls.mp3";
 import reality from "./assets/distant-reality.mp3";
-import american from "./assets/i-am-an-american.mp3";
-import music from "./assets/lets-talk-about-music.mp3";
 
 function Media() {
+  const Plague = {
+    title: "Plague of Corruption (demo)",
+    link: plagueOfCorruption
+  };
+  const Exquisite = {
+    title: "Exquisite Corpse (demo)",
+    link: exquisiteCorpse
+  };
+  const Saturn = {
+    title: "Saturn Calls (demo)",
+    link: saturnCalls
+  };
   const Balloons = {
     title: "Chaos Balloons",
     link: balloons
@@ -13,16 +26,8 @@ function Media() {
     title: "Distant Reality",
     link: reality
   };
-  const American = {
-    title: "I am an American",
-    link: american
-  };
-  const Music = {
-    title: "Let's Talk About Music",
-    link: music
-  };
 
-  const Playlist = [Balloons, Reality, American, Music];
+  const Playlist = [Exquisite, Saturn, Plague, Balloons, Reality];
 
   return (
     Playlist.map(s =>

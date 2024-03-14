@@ -44,7 +44,7 @@
 }
 
 #audio-selection {
-  height: 5em;
+  height: 4em;
 }
 
 #audio-selection > * {
@@ -62,7 +62,7 @@
   letter-spacing: .123vw;
   line-height: 1.75em;
   min-height: 3rem;
-  padding-bottom: 5em;
+  padding-bottom: 3em;
   margin-top: -5em;
   text-shadow: .1px .1px .1px #333;
   left: 0;
@@ -109,6 +109,7 @@
 
 .rhap_container {
   background: inherit;
+  margin-top: -.432em;
 }
 
 .rhap_progress-section {
