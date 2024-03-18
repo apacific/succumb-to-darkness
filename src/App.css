@@ -18,19 +18,19 @@
 .Band-name {
   letter-spacing: 4vw;
   margin: 0;
-  overflow: hidden;
 }
 
-.Banner {
-  margin-left: .5em;
+#banner {
+  font-size: 6.66vw;
   padding-top: 1.25em;
 }
 
 .Header {
+  display: inline-block;
   font-family: 'JSL-blackletter';
-  font-size: 5rem;
+  overflow: hidden;
   vertical-align: top;
-  width: 100%;
+  width: 100vw;
 }
 
 .Nav-container {
